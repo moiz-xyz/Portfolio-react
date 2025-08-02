@@ -7,8 +7,8 @@ import {
   Send,
   Twitter,
 } from "lucide-react";
-import { cn } from "@/Lib/utils.js";
-import { useToast } from "@/hooks/use-toast";
+import { cn } from "../Lib/utils";
+import { useToast } from "../hooks/use-toast";
 import { useState } from "react";
 
 export const ContactSection = () => {
