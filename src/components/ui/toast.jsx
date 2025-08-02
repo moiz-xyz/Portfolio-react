@@ -2,8 +2,8 @@ import * as React from "react";
 import * as ToastPrimitives from "@radix-ui/react-toast";
 import { cva } from "class-variance-authority";
 import { X } from "lucide-react";
+import { cn } from "../../Lib/utils";
 
-import { cn } from "../Lib/utils";
 const ToastProvider = ToastPrimitives.Provider;
 
 const ToastViewport = React.forwardRef(({ className, ...props }, ref) => (
